@@ -18,7 +18,7 @@ const About = () => {
         <img
           src={image}
           alt=""
-          className="w-[30vw] h-[30vw] p-4 rounded-[50px] bg-cover "
+          className="w-[40vw] h-[40vw] md:w-[30vw] md:h-[30vw] p-4 rounded-[50px] bg-cover "
         />
       </div>
       <div className="w-1/2 mt-8 pl-4 flex flex-col gap:6 md:gap-10 ">

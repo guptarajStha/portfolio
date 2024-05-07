@@ -6,7 +6,7 @@ import { mContext } from '../helper/MainContext';
 const Sidebar = () => {
     const {currentResumeCursor, setCurrentResumeCursor}= useContext(mContext)
   return (
-    <div className="w-[30%] h-auto  bg-slate-300 flex flex-col justify-center items-center rounded-r-xl shadow-lg shadow-r-black text-3xl  gap-6">
+    <div className="w-[30%] h-auto hidden  bg-slate-300 sm:flex flex-col justify-center items-center rounded-r-xl shadow-lg shadow-r-black text-3xl  gap-6">
         <Link
           activeClass="active"
           to="education"

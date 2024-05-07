@@ -6,8 +6,8 @@ const Projects = () => {
   return (
     <div className="w-screen flex flex-col justify-center items-center mb-4">
       <div className="font-bold text-5xl m-8">Projects</div>
-      <div className="w-[90vw] flex  justify-between">
-        <div className="w-[40vw]  bg-slate-300  bg-cover p-4 rounded-xl">
+      <div className="w-[90vw] gap-4 flex flex-col md:flex md:flex-row  justify-between">
+        <div className="w-full md:w-[40vw]  bg-slate-300  bg-cover p-4 rounded-xl">
           <div className="flex flex-col h-full justify-between">
             <img className="rounded-xl" src={major} alt="" />
             <h1 className="font-bold">Description:</h1>
@@ -31,7 +31,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="w-[40vw]  bg-slate-300  bg-cover p-4 rounded-xl flex flex-col">
+        <div className="w-full md:w-[40vw]  bg-slate-300  bg-cover p-4 rounded-xl flex flex-col">
           <div className="flex flex-col bg h-full justify-between">
             <div>
               <img className="rounded-xl" src={minor} alt="" />

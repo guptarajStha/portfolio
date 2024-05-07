@@ -113,7 +113,7 @@ const Contact = () => {
               value={formData.message}
               onChange={handleChange}
               placeholder="Message"
-              className=" border-2 border-black w-[80vw] lg:w-[30vw] p-2 h-[30vh] rounded-lg"
+              className=" border-2 border-black w-[80vw] lg:w-[30vw] p-2 h-[20vh] rounded-lg"
             ></textarea>
             {!msgSend ? (
               <button

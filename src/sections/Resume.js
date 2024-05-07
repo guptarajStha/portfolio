@@ -7,7 +7,7 @@ const Resume = () => {
   return (
     // <div className="w-screen h-[80vh] flex justify-between">
 
-    <div className="w-[68%] overflow-auto">
+    <div className="w-[100vw] sm:w-[68%] overflow-auto p-4 sm:p-0 ">
       <Education />
       <Experience />
       <Skills />

@@ -13,7 +13,7 @@ const Experience = () => {
   >
     <h1 className="font-bold text-3xl mb-4">Experience</h1>
     <div className="flex gap-x-4">
-    <div className="w-[60px] h-[60px] rounded-full bg-slate-300 flex justify-center items-center">
+    <div className="w-[60px] h-[60px] rounded-full sm:bg-slate-300 flex justify-center items-center">
         <RiComputerLine size={40} />
       </div>
       <div className="pl-4 ">
@@ -23,7 +23,7 @@ const Experience = () => {
         </div>
         <div className="text-xl">Purwanchal Campus, Dharan</div>
     
-        <h1 className="w-[60%]">
+        <h1 className="w-[90%]">
           Created Environmental Health Score Prediction based different
           environment indexes like air index, water index, carbon
           emission, etc.

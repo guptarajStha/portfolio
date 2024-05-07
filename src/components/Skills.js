@@ -16,7 +16,7 @@ const Skills = () => {
       }}
     >
       <h1 className="font-bold text-3xl mb-4">Skills</h1>
-      <div className="grid grid-rows-2 grid-cols-3 gap-3">
+      <div className="items-center justify-center  grid grid-rows-2 grid-cols-3 gap-3">
         <div className="border-4 rounded-lg font-bold w-[14vw] h-[14vw] flex justify-center items-center flex-col">
           <FaHtml5 className=" size-[4vw]" />
           <h1 className="text-[2vw] ">HTML</h1>

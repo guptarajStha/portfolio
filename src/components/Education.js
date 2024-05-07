@@ -13,7 +13,7 @@ const Education = () => {
         >
           <h1 className="font-bold text-3xl mb-4">Education</h1>
           <div className="flex">
-            <div className="w-[60px] h-[60px] rounded-full bg-slate-300 flex justify-center items-center">
+            <div className="w-[60px] h-[60px] rounded-full sm:bg-slate-300 flex justify-center items-center">
               <FaGraduationCap size={40} />
             </div>
             <div className="pl-4">
@@ -27,7 +27,7 @@ const Education = () => {
           </div>
           <hr className="m-4" />
           <div className="flex">
-            <div className="w-[60px] h-[60px] rounded-full bg-slate-300 flex justify-center items-center">
+            <div className="w-[60px] h-[60px] rounded-full sm:bg-slate-300 flex justify-center items-center">
               <FaGraduationCap size={40} />
             </div>
             <div className="pl-4">
