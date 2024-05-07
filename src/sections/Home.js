@@ -20,7 +20,7 @@ const Home = () => {
             />
           </h1>
         </div>
-        <div className="h-[10vh] ml-[-16px] bg-white w-[10vh] rotate-45 z-10"></div>
+        <div className="h-[10vh] bg-white w-[10vh] rotate-45 z-10"></div>
       </div>
       <div className="w-1/2 bg-slate-300 h-full absolute z-2 top-[6px]"></div>
     </div>

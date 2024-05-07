@@ -13,7 +13,7 @@ const About = () => {
   };
 
   return (
-    <div className="w-screen  z-10 flex">
+    <div className="w-screen  z-10 flex p-4">
       <div className="w-1/2 h-full flex justify-end mr-4">
         <img
           src={image}
