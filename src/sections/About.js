@@ -3,7 +3,7 @@ import image from "../images/IMG_2982.JPG";
 
 const About = () => {
   const downloadPdf = () => {
-    const pdfUrl = "Guptaraj_Shrestha_CV.pdf";
+    const pdfUrl = "Guptaraj_Shrestha__CV.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
     link.download = "Guptaraj_Shrestha_CV.pdf"; // specify the filename
